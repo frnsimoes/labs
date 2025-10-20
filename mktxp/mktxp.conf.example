@@ -1,0 +1,90 @@
+[Sample-Router]
+    enabled = True
+    hostname = 
+    port = 8728
+    username = 
+    password = 
+    
+    use_ssl = False
+    no_ssl_certificate = False
+    ssl_certificate_verify = False
+    
+    installed_packages = True
+    dhcp = True
+    dhcp_lease = True
+    connections = True
+    connection_stats = True
+    pool = True
+    interface = True
+    firewall = True
+    monitor = True
+    route = True
+    wireless = True
+    wireless_clients = True
+    capsman = True
+    capsman_clients = True
+    
+    use_comments_over_names = True
+[default]
+
+# The section below contains the latest default parameters introduced by MKTXP
+# For organizational purposes, you can move these parameters to the [default] section
+[new_default_parameters]
+    no_ssl_certificate = False
+    dhcp_lease = True
+    dhcp = True
+    connection_stats = False
+    bgp = False
+    gre = False
+    kid_control_dynamic = False
+    bfd = False
+    ipv6_pool = False
+    pool = True
+    user = True
+    plaintext_login = True
+    capsman_clients = True
+    netwatch = True
+    ipv6_route = False
+    public_ip = True
+    switch_port = False
+    use_comments_over_names = True
+    capsman = True
+    ssl_certificate_verify = False
+    neighbor = True
+    container = False
+    interface = True
+    firewall = True
+    lte = False
+    health = True
+    dns = False
+    installed_packages = True
+    connections = True
+    use_ssl = False
+    enabled = False
+    poe = True
+    certificate = False
+    monitor = True
+    queue = True
+    route = True
+    check_for_updates = False
+    ipv6_neighbor = False
+    ipsec = False
+    kid_control_assigned = False
+    wireless = True
+    eoip = False
+    ipv6_firewall = False
+    routing_stats = False
+    ipip = False
+    ssl_check_hostname = True
+    wireless_clients = True
+    hostname = localhost
+    username = user
+    password = password
+    credentials_file = ""
+    ssl_ca_file = ""
+    remote_dhcp_entry = None
+    remote_capsman_entry = None
+    address_list = None
+    ipv6_address_list = None
+    custom_labels = None
+    port = 8728
